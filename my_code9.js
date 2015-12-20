@@ -20,6 +20,12 @@ $(document).ready(function() {
                 if (indexNum > 2) {indexNum = 0;}
                 $("#picture").fadeIn(1000);                
             });
+            $("#btn1").click(function() {
+               $("#picture").animate({height: "300px"});                
+            });
+            $("#btn2").click(function() {
+               $("#picture").animate({height: "100px"});                
+            });
             
               
 //        $("p").css("background-color", "yellow");
