@@ -21,10 +21,13 @@ $(document).ready(function() {
                 $("#picture").fadeIn(1000);                
             });
             $("#btn1").click(function() {
-               $("#picture").animate({height: "300px"});                
+               $("#picture").animate({height: "200px"});                
             });
             $("#btn2").click(function() {
-               $("#picture").animate({height: "100px"});                
+               $("#picture").animate({height: "50px"});                
+            });
+             $("#btn3").click(function() {
+               $("#picture").animate({height: "400px"});                
             });
             
               
