@@ -228,10 +228,12 @@ footer {
 
         .dropdown-content {
             display: none;
-            position: absolute;
+            position: static;
             background-color: #f9f9f9;
-            min-width: 160px;
-            position: absolute;
+            min-width: 60px;
+            margin-right: 650px;
+            margin-left: 650px;
+            position: center;
             overflow: auto;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         }
