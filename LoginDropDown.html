@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+
+    
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   
+<div class="dropdown"> 
+
+<h1>Site Options</h1>
+    
+<button onclick="myFunction()" class="dropbtn">Menu</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script> 
+        
+    <div class="login">
+    <title>MasterMind Login</title> <br>
+    <link rel="stylesheet" type="text/css" href="LoginCode.js">
+    
+    <div class="container">
+    
+        
+    <div class="login">
+			<h1>MasterMind Authentication</h1>
+        <form method="post" action="">
+			<p><input type="text" name="login" value="" placeholder="Username or Email"></p> 
+			<p><input type="password" name="password" value"" placeholder="Password"></p>
+			
+			<p class="remember_me">
+				<label>
+				<label>
+					<input type="checkbox" name="remember_me" id="remember_me">
+					Never Forget Me
+				</label>
+				</label> 
+			</p>
+		
+            <p class="submit"><input type="submit" name="commit" value="Login"></p>
+		</form>  
+        </div>
+	
+	
+        <div class="login-help">
+            <p> Forgot password? <a href="#">Click here to reset it</a>.</p>
+        </div> 
+        
+    <style>
+        .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;           
+            font-size: 16px;
+/*
+            position: absolute;
+            margin-top: 400px;
+            margin-left: 700px;
+*/
+            border: none;
+            cursor: pointer;
+            margin: center;
+        }
+
+        .dropbtn:hover, .dropbtn:focus {
+            background-color: #3e8e41;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            position: absolute;
+            overflow: auto;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            
+        }
+
+        .dropdown a:hover {background-color: #f1f1f1}
+
+        .show {display:block;}
+        </style>
+    </head>
+<body>
+
+
+ <footer>
+    <p2>MasterMind Association, Inc.</p2>
+ </footer>
+</div>
+
+</body>
+</html>
