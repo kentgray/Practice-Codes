@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AutoPlay>true</AutoPlay>
+            <DescSliding>true</DescSliding>
+            <GalleryMultipleSuffix>1</GalleryMultipleSuffix>
+            <GalleryName>LoginDropDownLB</GalleryName>
+            <GalleryOptionID>1</GalleryOptionID>
+            <HoverStart>false</HoverStart>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEngine>jquery</ImageEngine>
+            <ImageHeight>480</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink>true</ImageShrink>
+            <ImageStretch>false</ImageStretch>
+            <ImageTemplate>5. Mac</ImageTemplate>
+            <ImageTemplateName>Native</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <PublishFileName>C:/Users/Owner/Documents/CourseWork/index.html</PublishFileName>
+            <PublishIndex>index.html</PublishIndex>
+            <PublishPath>C:/Users/Owner/Documents/CourseWork</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelPaths>false</RelPaths>
+            <ResizeSpeed>7</ResizeSpeed>
+            <RightClick>false</RightClick>
+            <SlideShow>true</SlideShow>
+            <SlideShowDelay>4</SlideShowDelay>
+            <ThumbColumns>0</ThumbColumns>
+            <ThumbFitImage>false</ThumbFitImage>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>120</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbTemplate>Mac</ThumbTemplate>
+            <ThumbTemplateName>Native</ThumbTemplateName>
+            <ThumbWidth>160</ThumbWidth>
+        </Settings>
+        <Images>
+            <Image>
+                <url>C:/Users/Owner/Practice Codes/Sipping-Coffee.gif</url>
+                <title>Sipping-Coffee</title>
+                <filesize>123532</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Owner/Practice Codes/redball.gif</url>
+                <title>redball</title>
+                <filesize>138811</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+<head>
+<meta charset="utf-8">
+  <title>MasterMind Complex</title
+<link rel="stylesheet" href="engine/css/vlightbox1.css" type="text/css" />
+<link rel="stylesheet" href="engine/css/visuallightbox.css" type="text/css" media="screen" />
+<script src="engine/js/jquery.min.js" type="text/javascript"></script>
+<script src="engine/js/visuallightbox.js" type="text/javascript"></script>
+<script src="engine/js/vlbdata.js" type="text/javascript"></script>
+</head>   
+    
+<body>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   
+<div class="dropdown" align="center">
+
+
+<h1>Site Options</h1>
+    
+<button onclick="myFunction()" class="dropbtn">Menu</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+ <div align="center">
+<body>
+<div id="vlightbox1">
+<a class="vlightbox1" href="C:/Users/Owner/Practice Codes/Sipping-Coffee.gif" title="2"><img src="C:/Users/Owner/Practice Codes/index_files/vlb_thumbnails1/sippingcoffee.jpg" alt="2"/></a>
+<a class="vlightbox1" href="C:/Users/Owner/Practice Codes/redball.gif" title="3"><img src="C:/Users/Owner/Practice Codes/index_files/vlb_thumbnails1/redball.jpg" alt="3"/>
+</a><a class="vlb" style="display:none" href="http://visuallightbox.com">Photo Gallery Creator by VisualLightBox.com v4.8.</a>
+</div>
+</body>
+</div>
+    
+<script>
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script> 
+
+
+    <div class="login">
+    <title>MasterMind Login</title> <br>
+    <link rel="stylesheet" type="text/css" href="LoginCode.js">
+    
+    <div class="container">
+    
+        
+    <div class="login">
+			<h1>MasterMind Authentication</h1>
+        <form method="post" action="">
+			<p><input type="text" name="login" value="" placeholder="Username or Email"></p> 
+			<p><input type="password" name="password" value"" placeholder="Password"></p>
+			
+			<p class="remember_me">
+				<label>
+				<label>
+					<input type="checkbox" name="remember_me" id="remember_me">
+					Never Forget Me
+				</label>
+				</label> 
+			</p>
+		
+            <p class="submit"><input type="submit" name="commit" value="Login"></p>
+		</form>  
+        </div>
+	
+	
+        <div class="login-help">
+            <p> Forgot password? <a href="#">Click here to reset it</a>.</p>
+        </div> 
+        
+    <style>
+
+        </style>
+    
+
+    
+
+
+ <footer>
+    <p2>MasterMind Association, Inc.</p2>
+ </footer>
+</div>
+<script type="text/javascript" src="LoginCode.js"></script>
+</body>
+</html>

@@ -221,8 +221,9 @@ footer {
         }
 
         .dropdown {
-            position: relative;
-            display: inline-block;
+            position: static;
+            display: block;
+            margin-bottom: 20px;
         }
 
         .dropdown-content {
