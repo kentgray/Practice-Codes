@@ -11,7 +11,26 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
 
-            bool canVote = true;
+            Console.WriteLine("5 + 3 = " + (5 + 3));
+            Console.WriteLine("5 - 3 = " + (5 - 3));
+            Console.WriteLine("5 * 3 = " + (5 * 3));
+            Console.WriteLine("5 / 3 = " + (5 / 3));
+            Console.WriteLine("5.2 % 3 = " + (5.2 % 3));
+
+            int i = 0;
+
+            Console.WriteLine("i++ = " + (i++));
+            Console.WriteLine("++i = " + (++i));
+            Console.WriteLine("i-- = " + (i--));
+            Console.WriteLine("--i = " + (--i));
+
+            Console.WriteLine("i += 3 " + (i += 3));
+            Console.WriteLine("i -= 2 " + (i -= 2));
+            Console.WriteLine("i *= 2 " + (i *= 2));
+            Console.WriteLine("i /= 2 " + (i /= 2));
+            Console.WriteLine("i %= 2 " + (i %= 2));
+
+           /* bool canVote = true;
 
             char grade = 'A';
 
@@ -35,11 +54,11 @@ namespace ConsoleApplication1
 
             var anotherName = "Tom";
 
-            Console.WriteLine("anotherName is a {0}", anotherName.GetTypeCode());
+            Console.WriteLine("anotherName is a {0}", anotherName.GetTypeCode());*/
 
-     /*       Console.WriteLine("What is your name");
-            string name = Console.ReadLine();
-            Console.WriteLine("Hello " + name); */
+            /*       Console.WriteLine("What is your name");
+                   string name = Console.ReadLine();
+                   Console.WriteLine("Hello " + name); */
         }
     }
 }
