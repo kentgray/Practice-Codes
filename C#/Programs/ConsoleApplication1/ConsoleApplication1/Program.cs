@@ -15,7 +15,11 @@ namespace ConsoleApplication1
 
             string sampString2 = "More random words";
 
-            sampString = sampString.Replace("words", "characters");
+            string fmtStr = String.Format("{0:c} {1:00.00} {2:#.00} {3:0,0}", 1.56, 15.567, .56, 1000);
+
+            Console.WriteLine("Is empty " + String.IsNullOrEmpty(sampString));
+            
+            /* sampString = sampString.Replace("words", "characters");
 
             sampString = sampString.Remove(0, 2);
 
