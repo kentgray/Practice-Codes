@@ -11,7 +11,40 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
 
-            string randStr = "Here are some random character";
+            string sampString = "A bunch of random words";
+
+            string sampString2 = "More random words";
+
+            sampString = sampString.Replace("words", "characters");
+
+            sampString = sampString.Remove(0, 2);
+
+            string[] names = new string[3] { "Matt", "Joe", "Paul" };
+
+            Console.WriteLine("Name List " + String.Join(",", names));
+
+           //Console.WriteLine(sampString);
+
+           // sampString = sampString.Trim(); TrimEnd TrimStart
+            
+            /*  Console.WriteLine("Strings Equal " + sampString.Equals(sampString2));
+
+            Console.WriteLine("Starts with \"A bunch\" " + sampString.StartsWith("A bunch"));
+
+            Console.WriteLine("Ends with words " + sampString.EndsWith("words"));
+
+            /*  Console.WriteLine("Index of bunch " + sampString.IndexOf("bunch"));
+
+            Console.WriteLine("2nd Word " + sampString.Substring(2, 6));
+
+            /*(Console.WriteLine("Is empty" + String.IsNullOrEmpty(sampString));
+
+            Console.WriteLine("Is empty" + String.IsNullOrWhiteSpace(sampString));
+
+            Console.WriteLine("String Length" + sampString.Length);
+
+
+            /* string randStr = "Here are some random character";
 
             foreach(char c in randStr)
             {
