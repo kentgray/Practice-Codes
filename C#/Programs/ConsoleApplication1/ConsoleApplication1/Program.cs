@@ -11,7 +11,19 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
 
-            string sampString = "A bunch of random words";
+            StringBuilder sb = new StringBuilder();
+
+            sb.Append("This is the first sentence. ");
+            sb.AppendFormat("My name is {0} and I live in {1}", "Derek", "Pennsylvania");
+
+            sb.Replace("a", "e");
+
+            sb.Remove(5, 7);
+
+            Console.WriteLine(sb.ToString());
+  
+            
+            /* string sampString = "A bunch of random words";
 
             string sampString2 = "More random words";
 
