@@ -11,7 +11,15 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
 
-            for (int i = 0; i < 10; i++)
+            string randStr = "Here are some random character";
+
+            foreach(char c in randStr)
+            {
+                Console.WriteLine(c);
+
+            }
+            
+            /* for (int i = 0; i < 10; i++)
             {
                 if((i % 2) > 0)
                 {
