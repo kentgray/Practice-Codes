@@ -11,7 +11,55 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
 
-            double number1 = 10.5;
+            int age = 17;
+
+            if ((age >= 5) && (age <= 7))
+            {
+                Console.WriteLine("Go to elementary school");
+            }
+            else if ((age > 7) && (age < 13))
+            {
+                Console.WriteLine("Go to middle school");
+            }
+            else
+            {
+                Console.WriteLine("Go to high school");
+            }
+
+            switch (age)
+            {
+                case 0:
+                    Console.WriteLine("Infant");
+                    break;
+                case 1:
+                case 2:
+                    Console.WriteLine("Toddler");
+                    goto Cute;
+            }
+
+            Cute:
+            Console.WriteLine("Toddlers are Cute");
+        
+    
+
+
+
+            // int canDrive = age >= 16 ? 1 : 0;
+            // bool canDrive = age >= 16 ? true : false;
+            // Console.WriteLine("! true " + (!true));
+
+
+
+
+
+
+            /*if ((age < 14) || (age > 67))
+            {
+                Console.WriteLine("You shouldn't work");
+            }
+
+
+        /*  double number1 = 10.5;
             double number2 = 15;
 
             Random rand = new Random();
