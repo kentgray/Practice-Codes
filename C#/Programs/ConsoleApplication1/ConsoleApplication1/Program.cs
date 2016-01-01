@@ -11,7 +11,39 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
 
-            int age = 17;
+            string guess;
+
+            do
+            {
+                Console.WriteLine("Guess a Number ");
+                guess = Console.ReadLine();
+
+
+            } while (!guess.Equals("15"));
+            
+            /* int i = 0;
+
+            while (i < 10)
+            {
+                if (i == 7)
+                {
+                    i++;
+                    continue;
+                }
+
+                if (i == 9)
+                {
+                    break;
+                }
+
+                if ((i % 2) > 0)
+                {
+                    Console.WriteLine(i);
+                }
+                i++;
+            }
+
+           /* int age = 17;
 
             if ((age >= 5) && (age <= 7))
             {
@@ -34,11 +66,14 @@ namespace ConsoleApplication1
                 case 1:
                 case 2:
                     Console.WriteLine("Toddler");
-                    goto Cute;
+                default:
+                    Console.WriteLine("Child");
+                    break;
+                   // goto Cute;
             }
 
-            Cute:
-            Console.WriteLine("Toddlers are Cute");
+          //  Cute:
+          //  Console.WriteLine("Toddlers are Cute");
         
     
 
