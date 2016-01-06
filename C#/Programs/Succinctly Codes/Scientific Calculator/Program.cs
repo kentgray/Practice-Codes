@@ -11,8 +11,8 @@ public class Program
         ProgrammerCalculator prgCalc = new ProgrammerCalculator();
         double orResult = prgCalc.Or(5, 10);
         Console.WriteLine($"Programmer Calculator 5 | 10: {orResult}");
-        
-    double prgSum = prgCalc.Add(3, 3);
+
+        double prgSum = prgCalc.Add(3, 3);
         Console.WriteLine($"Programmer Calculator 3 + 3: {prgSum}");
         Console.ReadKey();
     }
