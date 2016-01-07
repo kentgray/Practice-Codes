@@ -103,7 +103,11 @@ namespace ConsoleApplication1
 
         new public string toString()
         {
-            return String.Format("{0} is {1} inches ")
+            return String.Format("{0} is {1} inches tall, weighs {2} lbs and likes to say {3} and eats {4}", name, height, weight, sound favFood);
         }
+
     }
+
+
+
 }
