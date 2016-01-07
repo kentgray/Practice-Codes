@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator+", "Weather\Calc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathOperation", "MathOperation\MathOperation.csproj", "{7360713B-CAC5-4B6A-8290-FA3A9A1DD5C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object Initializer", "Object Initializer\Object Initializer.csproj", "{B8A214C5-A496-4F4F-BF7F-B9D63D3B1360}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7360713B-CAC5-4B6A-8290-FA3A9A1DD5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7360713B-CAC5-4B6A-8290-FA3A9A1DD5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7360713B-CAC5-4B6A-8290-FA3A9A1DD5C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A214C5-A496-4F4F-BF7F-B9D63D3B1360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A214C5-A496-4F4F-BF7F-B9D63D3B1360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A214C5-A496-4F4F-BF7F-B9D63D3B1360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A214C5-A496-4F4F-BF7F-B9D63D3B1360}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
