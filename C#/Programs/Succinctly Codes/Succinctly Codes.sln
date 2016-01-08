@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathOperation", "MathOperat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object Initializer", "Object Initializer\Object Initializer.csproj", "{B8A214C5-A496-4F4F-BF7F-B9D63D3B1360}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clicked", "Clicked\Clicked.csproj", "{3F5D46C1-FE65-4F21-9DF5-EA748999F5C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B8A214C5-A496-4F4F-BF7F-B9D63D3B1360}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8A214C5-A496-4F4F-BF7F-B9D63D3B1360}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8A214C5-A496-4F4F-BF7F-B9D63D3B1360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F5D46C1-FE65-4F21-9DF5-EA748999F5C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F5D46C1-FE65-4F21-9DF5-EA748999F5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F5D46C1-FE65-4F21-9DF5-EA748999F5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F5D46C1-FE65-4F21-9DF5-EA748999F5C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
