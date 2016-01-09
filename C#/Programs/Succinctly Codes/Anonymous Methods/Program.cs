@@ -11,13 +11,12 @@ namespace Anonymous_Methods
     class Animal
     {
         static void Main(string[]args)
-        { 
-            GetSum sum = delegate (double num1, double num2)
         {
-            return num1 + num2;
-        };
+            Func<int, int, int> getSum = (x, y) => x + y;
 
-            Console.WriteLine("5 + 10 = " + sum(5, 10));
+            Console.WriteLine("5 + 3 = " + getSum.Invoke(5, 3));
+
+
         }
     }
 }
