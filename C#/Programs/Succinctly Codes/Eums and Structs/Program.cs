@@ -6,13 +6,25 @@ using System.Threading.Tasks;
 
 namespace Eums_and_Structs
 {
-
-    public enum Temperature
+    struct Customers
     {
-        Freeze,
-        Low,
-        Warm,
-        Boil
+        private string name;
+        private double balance;
+        private int id;
+
+        public void createCust(string n, double b, int i)
+        {
+            name = n;
+            balance = b;
+            id = i;
+        }
+
+        public void showCust()
+        {
+            Console.WriteLine("Name " + name);
+            Console.WriteLine("Balance " + balance);
+            Console.WriteLine("Id " + id);
+        }
     }
 
 
@@ -20,28 +32,12 @@ namespace Eums_and_Structs
     {
         static void Main(string[] args)
         {
+            Customers bob = new Customers();
 
-            Temperature micTemp = Temperature.Warm;
+            bob.createCust("Bob", 15.50, 12345);
 
-            switch (micTemp)
-            {
-                case Temperature.Freeze:
-                    Console.WriteLine("Temp on Freeze");
-                    break;
-
-                case Temperature.Low:
-                    Console.WriteLine("Temp on Low");
-                    break;
-
-                case Temperature.Warm:
-                    Console.WriteLine("Temp on Warm");
-                    break;
-
-                case Temperature.Boil:
-                    Console.WriteLine("Temp on Boil");
-                    break;
-
-            }
+            bob.showCust();
+            
 
         }
     }
