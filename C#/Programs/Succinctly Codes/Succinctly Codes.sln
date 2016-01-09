@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eums and Structs", "Eums and Structs\Eums and Structs.csproj", "{0FD386F5-0B3F-4890-82A0-C66AF21768DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anonymous Methods", "Anonymous Methods\Anonymous Methods.csproj", "{7A56C7A1-EE43-486F-A8FA-A79CE4F19B2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{0FD386F5-0B3F-4890-82A0-C66AF21768DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FD386F5-0B3F-4890-82A0-C66AF21768DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FD386F5-0B3F-4890-82A0-C66AF21768DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A56C7A1-EE43-486F-A8FA-A79CE4F19B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A56C7A1-EE43-486F-A8FA-A79CE4F19B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A56C7A1-EE43-486F-A8FA-A79CE4F19B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A56C7A1-EE43-486F-A8FA-A79CE4F19B2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
