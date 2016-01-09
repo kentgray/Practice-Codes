@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Object Initializer", "Objec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clicked", "Clicked\Clicked.csproj", "{3F5D46C1-FE65-4F21-9DF5-EA748999F5C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{501D9EBE-EC39-44F5-A858-9F73A95E146C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eums and Structs", "Eums and Structs\Eums and Structs.csproj", "{0FD386F5-0B3F-4890-82A0-C66AF21768DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{3F5D46C1-FE65-4F21-9DF5-EA748999F5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F5D46C1-FE65-4F21-9DF5-EA748999F5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F5D46C1-FE65-4F21-9DF5-EA748999F5C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{501D9EBE-EC39-44F5-A858-9F73A95E146C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{501D9EBE-EC39-44F5-A858-9F73A95E146C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{501D9EBE-EC39-44F5-A858-9F73A95E146C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{501D9EBE-EC39-44F5-A858-9F73A95E146C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FD386F5-0B3F-4890-82A0-C66AF21768DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD386F5-0B3F-4890-82A0-C66AF21768DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD386F5-0B3F-4890-82A0-C66AF21768DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD386F5-0B3F-4890-82A0-C66AF21768DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
