@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "KGExample"
+  },
+  "hostingPlanName": {
+    "value": "KGExamplePlan"
+  },
+  "siteLocation": {
+    "value": "Central US"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "99acb299-a82b-46ac-8958-6edf75016c81"
+  },
+  "resourceGroup": {
+    "value": "MyExampleGroup"
+  }
+}

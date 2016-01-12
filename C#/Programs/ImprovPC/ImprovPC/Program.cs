@@ -14,6 +14,7 @@ using System.Media;
 namespace ImprovPC
 {
     class Program
+        public static Random _random = new Random();
     {
         public static Random _random = new Random();
 
