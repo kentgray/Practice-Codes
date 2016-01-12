@@ -6,21 +6,15 @@ using System.Threading.Tasks;
 
 using System.Threading;
 using System.Windows.Forms;
-using System.Drawing;
 using System.Media;
 
 
-
-//
 //  Application Name: Improv PC
-//
-//
 
 namespace ImprovPC
 {
     class Program
     {
-
         public static Random _random = new Random();
 
         public static int _startupDelaySeconds = 10;
@@ -70,9 +64,8 @@ namespace ImprovPC
             sillyKeyboardThread.Abort();
             sillySoundThread.Abort();
             sillyPopupThread.Abort();
-
-
         }
+
 
         #region Thread functions
         // Thread will randomly affect mouse movements.
@@ -99,7 +92,6 @@ namespace ImprovPC
                         Cursor.Position.X + moveX,
                         Cursor.Position.Y + moveY);
                 }
-
                 Thread.Sleep(50);
             }
         }
@@ -121,9 +113,9 @@ namespace ImprovPC
                         key = Char.ToLower(key);
                     }
 
-                    SendKeys.SendWait(key.ToString());
-                    Thread.Sleep(_random.Next(500));
+                    SendKeys.SendWait(key.ToString());  
                 }
+                    Thread.Sleep(_random.Next(1000));
             }
         }
 
@@ -176,8 +168,8 @@ namespace ImprovPC
                     {
                         case 0:
                             MessageBox.Show(
-                                "Internet Explorer has stopped working",
-                                "Internet Explorer",
+                                "Google Chrome has stopped working",
+                                "Google Chrome",
                                 MessageBoxButtons.OK,
                                 MessageBoxIcon.Error);
                             break;
@@ -191,7 +183,6 @@ namespace ImprovPC
                     }
                    
                 }
-
                 Thread.Sleep(10000);
             }
         }
