@@ -14,13 +14,13 @@ using System.Media;
 namespace ImprovPC
 {
     class Program
-        public static Random _random = new Random();
+        
     {
         public static Random _random = new Random();
 
         public static int _startupDelaySeconds = 10;
         public static int _totalDurationSeconds = 10;
-
+      
 
 
         static void Main(string[] args)
@@ -38,13 +38,14 @@ namespace ImprovPC
             Thread sillyMouseThread = new Thread(new ThreadStart(SillyMouseThread));
             Thread sillyKeyboardThread = new Thread(new ThreadStart(SillyKeyboardThread));
             Thread sillySoundThread = new Thread(new ThreadStart(SillySoundThread));
-            Thread sillyPopupThread = new Thread(new ThreadStart(SillyPopupThread));
+            Thread sillyPopupThread = new Thread(new ThreadStart(SillyPopupThread)); 
 
             DateTime future = DateTime.Now.AddSeconds(_startupDelaySeconds);
             Console.WriteLine("Waiting 10 seconds before starting threads");
             while (future > DateTime.Now)
             {
                 Thread.Sleep(1000);
+                
             }
 
             // Start all of the threads
@@ -114,7 +115,8 @@ namespace ImprovPC
                         key = Char.ToLower(key);
                     }
 
-                    SendKeys.SendWait(key.ToString());  
+                    SendKeys.SendWait(key.ToString());
+                    
                 }
                     Thread.Sleep(_random.Next(1000));
             }
@@ -150,6 +152,7 @@ namespace ImprovPC
                             break;
                     }
                     SystemSounds.Exclamation.Play();
+                    
                 }
                 Thread.Sleep(1000);
             }
@@ -182,12 +185,15 @@ namespace ImprovPC
                                 MessageBoxIcon.Warning);
                             break;
                     }
-                   
+
                 }
-                Thread.Sleep(10000);
+                continue;
+                
             }
+           
         }
         #endregion
     }
+   
 }
 
